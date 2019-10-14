@@ -5,6 +5,12 @@ body {
   font-family: 'Lato', sans-serif;
   color: #505962
 }
+.offset:before{
+  display: block;
+  content: "";
+  height: 4;
+  margin-top: 4rem;
+}
 
 /*--- Navigation ---*/
 .navbar {
@@ -61,6 +67,56 @@ body {
   font-size: 1.1rem;
 }
 
+/*--- Languages Section --*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+}
+
+.languages img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+
+}
+
+/*--- Resources Section --*/
+.fixed {
+  background-image: url(img/computerHome.jpg);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+/*--- Contact Section --*/
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3!important;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
